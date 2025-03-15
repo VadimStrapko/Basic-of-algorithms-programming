@@ -1,0 +1,11 @@
+﻿  ConsoleApplication1.cpp
+D:\учеба\лабы\оаип\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,12): error C2672: "std::min": не найдена соответствующая перегруженная функция
+D:\visual\VC\Tools\MSVC\14.34.31933\include\utility(74,26): message : может быть "_Ty std::min(std::initializer_list<_Elem>)"
+D:\учеба\лабы\оаип\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,12): message : '_Ty std::min(std::initializer_list<_Elem>)': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'double [5]'
+D:\visual\VC\Tools\MSVC\14.34.31933\include\utility(71,26): message : или       "_Ty std::min(std::initializer_list<_Elem>,_Pr)"
+D:\учеба\лабы\оаип\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,12): message : "_Ty std::min(std::initializer_list<_Elem>,_Pr)": ожидаются аргументы 2 — 1 предоставлены
+D:\visual\VC\Tools\MSVC\14.34.31933\include\utility(64,6): message : или       "const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)"
+D:\учеба\лабы\оаип\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,12): message : "const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)": ожидаются аргументы 2 — 1 предоставлены
+D:\visual\VC\Tools\MSVC\14.34.31933\include\utility(54,33): message : или       "const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)"
+D:\учеба\лабы\оаип\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,12): message : "const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)": ожидаются аргументы 3 — 1 предоставлены
+D:\учеба\лабы\оаип\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(26,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
